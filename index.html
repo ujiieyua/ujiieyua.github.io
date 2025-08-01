@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>1日で体験！初めてのHTML体験会 - Ujiie Design</title>
+        <meta name="description" content="Ujiie Designは初めてのHTML体験会を実施します！WEB制作をしてみたい方必見！">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">    
+    </head>
+    <body>
+    <header>
+        <h1>
+            <img src="img/logo.png" alt="ロゴ：Ujiie Design">
+        </h1>
+    </header>
+    <main>
+        <div class="mv-area">
+            <img src="img/photo_01.png" alt="WEB制作をしてみたいあなたへ 初めてのHTML体験会">
+        </div>
+        <section>
+            <div class="section-inner">
+                <h2>初めてのHTML体験会！</h2>
+                <p>WEB制作って難しそう……そんなあなたへ。<br>見て・書いて・動かして、HTMLの基本を体験してみませんか？</p>
+            </div>
+        </section>
+        <section>
+            <div class="section-inner">
+                <h2>イベント概要</h2>
+                <table>
+                    <tr>
+                        <th>日時</th>
+                        <td>2025年8月24日(日) 13:00～16:00</td>
+                    </tr>
+                    <tr>
+                        <th>対象</th>
+                        <td>プログラミング未経験者</td>
+                    </tr>
+                    <tr>
+                        <th>開催場所</th>
+                        <td>オンライン(Zoom)</td>
+                    </tr>
+                    <tr>
+                        <th>定員</th>
+                        <td>先着40名(事前予約制)</td>
+                    </tr>
+                    <tr>
+                        <th>参加費用</th>
+                        <td>無料</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <div class="section-inner">
+                <h2>よくある質問</h2>
+                <dl class="faq">
+                    <dt>プログラミング未経験ですが参加できますか？</dt>
+                    <dd>はい、完全初心者向けの内容ですのでご安心ください。</dd>
+                    <dt>事前に準備するものはありますか？</dt>
+                    <dd>パソコンとネット環境、Zoomが使える環境をご用意ください。</dd>
+                    <dt>顔出しは必要ですか？</dt>
+                    <dd>任意です。聞くだけの参加もOKです。</dd>
+                </dl>
+            </div>
+        </section>
+        <section>
+            <div class="section-inner">
+                <h2>申し込みフォーム</h2>
+                <form action="program.php" method="post">
+                    <dl>
+                        <dt><label for="user-name">お名前</label></dt>
+                        <dd><input name="user-name" id="user-name" type="text"></dd>
+                        <dt><label for="user-email">メールアドレス</label></dt>
+                        <dd><input name="user-email" id="user-email" type="text"></dd>
+                        <dt>プログラミング経験はありますか</dt>
+                        <dd><input type="radio" name="programming" value="なし" id="programming-no"><label for="programming-no">なし</label>
+                            <input type="radio" name="programming" value="少しだけ" id="programming-little"><label for="programming-little">少しだけ</label>
+                            <input type="radio" name="programming" value="経験あり" id="programming-yes"><label for="programming-yes">経験あり</label></dd>
+                    </dl>
+                    <div class="question">
+                        <p class="questions-etc">質問等</p>
+                        <textarea name="question" rows="4" cols="40"></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <button name="submit" id="submit" type="submit">申し込む</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <address>
+            〒000-0000<br>
+            東京都〇〇区〇〇〇〇１丁目2-3<br>
+            00-0000-0000<br>
+            株式会社Ujiie Design
+        </address>
+        <small>&copy; Ujiie Design Corporation.</small>
+    </footer>
+    </body>
+</html>
