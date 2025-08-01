@@ -1,0 +1,188 @@
+/* 共通設定 */
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "ヒラギノ角ゴ ProN", Meiryo, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+}
+
+/* HEADER MV */
+header img {
+    width: 170px;
+    margin: 0 auto;
+}
+
+.mv-area img {
+    width: 100%;
+}
+
+/* SECTION 共通 */
+section {
+    width: 100%;
+    padding: 40px 0;
+}
+
+section:nth-of-type(1) {
+    background-color: #239f6b;
+}
+
+section:nth-of-type(2) {
+    background-color: #dbc319;
+}
+
+section:nth-of-type(3) {
+    background-color: #41c6ca;
+}
+
+section:nth-of-type(4) {
+    background-color: #434864;
+}
+
+.section-inner {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2 {
+    border-bottom: 4px solid #fff;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+/* LIST */
+ol li {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* TABLE */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: #fff;
+}
+
+th,td {
+    padding: 1em;
+    border: 1px solid #3d5a6d;
+    color: #3d5a6d;
+}
+
+th {
+    background-color: #bfe1f6;
+}
+
+/* FAQ */
+
+.faq dt {
+    margin-bottom: 1em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.faq dt:before, .faq dd:before {
+    margin-right: .4em;
+}
+
+.faq dt:before {
+    content: "Q.";
+}
+
+.faq dd {
+    margin: 0 0 2.5em;
+    padding: 1em 1.5em;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.faq dd:before {
+    content: "A.";
+}
+
+/* FORM */
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form dt {
+    margin-bottom: 20px;
+}
+
+form dt, form label, question p {
+    color: #fff;
+}
+
+form dt:before {
+    content: "◆";
+    margin-right: 10px;
+}
+
+form dd {
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+
+input,textarea {
+    width: 100%;
+    border: none;
+    padding: .5em;
+    font-size: 1.1em;
+}
+
+input[type="radio"] {
+    width: 1em;
+    margin-left: 24px;
+    margin-right: 4px;
+}
+
+.question p {
+    margin-bottom: 20px;
+}
+
+.question p:before {
+    content: "◆";
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #3ed6bd;
+    margin: 40px auto 0;
+    display: block;
+    width: 70%;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    border-radius:30px;
+}
+
+.form-img-area img {
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: .9em;
+}
+
+address, small {
+    margin-bottom: 10px;
+    color: #2F4858;
+}
