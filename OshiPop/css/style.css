@@ -1,0 +1,234 @@
+/* 共通設定 */
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "FOT-UD丸ゴ_ラージ Pr6N", Meiryo, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+}
+
+/* MV */
+.mv-area img {
+    width: 100%;
+}
+
+/* SECTION 共通 */
+section {
+    width: 100%;
+}
+
+.section-inner {
+    margin: 0 auto;
+}
+
+/* explanation */
+.explanations {
+    background-image: url(../img/背景_01.png);
+    background-size: cover;
+}
+
+.explanation {
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.explanation h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.explanation p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+/* button */
+.btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #06691d;
+    display: block;
+    margin: 80px auto;
+    border-bottom: solid 8px #15511d;
+    border-radius: 20px;
+    width: 50%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* example */
+.poster-monitor {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.poster-monitor h2 {
+    border-bottom: 4px solid #2092c7;
+    margin-bottom: 30px;
+    color: #2092c7;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.poster-monitor img {
+    width: 95%;
+    margin: auto;
+}
+
+.examples {
+    display: flex;
+}
+
+.examples p {
+    text-align: center;
+    color: #0a2270;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.advertising-example p {
+    text-align: center;
+    color: #0a2270;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 80px;
+}
+
+/* steps */
+.steps {
+    display: block;
+    margin: auto;
+    background-image: url(../img/背景_01.png);
+    background-size: cover;
+}
+
+.steps h2 {
+    width: 70%;
+    margin: auto;
+    border-bottom: 4px solid #fff;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.advertising-steps {
+    display: flex;
+}
+
+.advertising-steps p {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 80px;
+}
+
+.advertising-step {
+    display: block;
+    width: 100%;
+}
+
+.advertising-step img {
+    display: block;
+    margin: auto;
+}
+
+/* form */
+.forms {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+.forms h2 {
+    margin: auto;
+    border-bottom: 4px solid #0a2270;
+    margin-bottom: 30px;
+    color: #0a2270;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+dt, .questions-etc {
+    color: #0a2270;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.questions-etc {
+    margin: 0;
+}
+
+dd {
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+
+input,textarea {
+    width: 100%;
+    border: 2px solid #0a2270;
+    padding: .5em;
+    font-size: 1.1em;
+    border-radius: 10px;    
+}
+
+button[type="submit"] {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #0a2270;
+    display: block;
+    margin: 80px auto;
+    border-bottom: solid 8px #061547;
+    border-radius: 20px;
+    width: 50%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form-submit {
+    padding-bottom: 80px;
+}
+
+/* FOOTER */
+footer {
+    background-image: url(../img/背景_02.png);
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+address, small {
+    margin-bottom: 10px;
+    color: #fff;
+}
